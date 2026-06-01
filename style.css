@@ -6,20 +6,21 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#f5f5f5;
+    background:#cddcec;
     padding:40px;
 }
 
 .container{
     max-width:900px;
     margin:auto;
-    background:white;
+    background:rgb(141, 177, 226);
     padding:30px;
     border-radius:10px;
 }
 
 header{
     margin-bottom:30px;
+
 }
 
 .nova-tarefa{
@@ -36,6 +37,7 @@ input{
 button{
     padding:12px 20px;
     cursor:pointer;
+    color:rgb(58, 35, 185);
 }
 
 ul{
@@ -47,11 +49,11 @@ li{
     justify-content:space-between;
     align-items:center;
     padding:15px;
-    border:1px solid #ddd;
+    border:1px solid #5582e4;
     margin-bottom:10px;
 }
 
 .concluida{
     text-decoration:line-through;
-    color:green;
+    color:rgb(255, 255, 255);
 }

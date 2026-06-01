@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#cddcec;
+    padding:40px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:rgb(141, 177, 226);
+    padding:30px;
+    border-radius:10px;
+}
+
+header{
+    margin-bottom:30px;
+
+}
+
+.nova-tarefa{
+    display:flex;
+    gap:10px;
+    margin-bottom:30px;
+}
+
+input{
+    flex:1;
+    padding:12px;
+}
+
+button{
+    padding:12px 20px;
+    cursor:pointer;
+    color:rgb(58, 35, 185);
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    border:1px solid #5582e4;
+    margin-bottom:10px;
+}
+
+.concluida{
+    text-decoration:line-through;
+    color:rgb(255, 255, 255);
+}
